@@ -1,0 +1,56 @@
+.footer{
+    background: #1D1D1E;
+    padding: 2rem 2rem 1rem;
+    display: flex;
+    justify-content: space-around;
+}
+.logoSocial{
+    display:flex;
+    flex-direction: column;
+    place-content: space-between;
+}
+.fa-brands{
+    color: #F7F7F7;
+    margin:0.5rem
+}
+.logoSocial>p{
+    font-family: 'Red Rose';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 16px;
+    color: #F7F7F7;
+}
+h4{
+    font-family: 'Red Rose';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+    color: #FFFFFF;
+}
+.footerLinks{
+    font-family: 'Red Rose';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 35px;
+    color: #F1F3F9;
+}
+@media screen and (max-width:900px){
+    .footer{
+        padding: 2rem 1rem 1rem;
+        justify-content: space-between;
+    }
+}
+@media screen and (max-width:600px){
+    .footer{
+        flex-direction: column;
+    }
+    .logoSocial{
+        gap: 2rem;
+    }
+    .footerlogo{
+        width: 50%;
+    }
+}

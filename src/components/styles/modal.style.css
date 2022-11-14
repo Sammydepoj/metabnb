@@ -1,0 +1,87 @@
+.modalbackgroundcontainer{
+    background-color: rgba(64, 64, 64, 0.3);;
+    position: absolute;
+    top: 50%;
+    left:50%;
+    width:100vw;
+    height:100vh;
+    transform:translate(-50%,-50%);
+    z-index: 0;
+}
+
+.modal{
+    position: absolute;
+    top: 50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    background: #FFFFFF;
+    border-radius: 16px;
+    width:40%;
+    padding:1rem;
+    z-index: 11;
+}
+.closemodal{
+    cursor: pointer;
+}
+.connectClose{
+    display: flex;
+    justify-content: space-between;
+}
+.connect{
+    font-family: 'Red Rose';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 30px;
+    color: #333333;
+}
+.choose{
+    font-family: 'Red Rose';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: #333333;
+}
+.meta,.walletconnect{
+    font-family: 'Sora';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 23px;
+    color: #000000;
+}
+.metamaskbox,.walletConnectbox{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px 20px;
+    gap: 135px;
+    background: #F8F9FA;
+    border: 1px solid #CFD8DC;
+    border-radius: 12px;
+}
+.walletConnectbox{
+    margin-top: 1rem;
+}
+.metapluslogo,.walletconnectlogo{
+    display: flex;
+    gap:0.5rem;
+}
+@media screen and (max-width:1000px){
+    .modal{
+        width: 50%;
+    }
+}
+@media screen and (max-width:800px){
+    .modal{
+        width: 60%;
+    }
+}
+@media screen and (max-width:600px){
+    .modal{
+        width: 80%;
+        z-index: 20;
+    }
+}
+

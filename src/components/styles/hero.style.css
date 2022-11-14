@@ -1,0 +1,118 @@
+.hero{
+    display:flex;
+    justify-content: space-between;
+    margin:0rem 0rem 0rem 2rem;
+    gap: 1rem;
+}
+.heroText{
+    width:100%;
+}
+.heroText h1{
+    font-family: 'Red Rose';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 56px;
+    line-height: 140%;
+    letter-spacing: -0.02em;
+    color: #434343;
+}
+.heroText>h1>span{
+    color:#A02279;
+}
+.heroText>p{
+    font-family: 'Red Rose';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 35px;
+    color: #434343;
+    width:100%;
+}
+form{
+    width: 100%;
+    display: flex;
+    justify-items: center;
+}
+input[type=text]{
+    background: rgba(247, 247, 247, 0.1);
+    border: 1px solid #A3A3A3;
+    border-radius: 8px 0px 0px 8px;
+    font-family: 'Red Rose';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 130%;
+    color: #B8B8B8;
+    padding:1.1rem 2rem 0.5rem 0.3rem;
+    width:60%;
+}
+input[type=submit]{
+    background: linear-gradient(90deg, #A02279 11.45%, #A02279 11.46%);
+    border-radius: 0px 8px 8px 0px;
+    font-family: 'Red Rose';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    text-align: center;
+    color: #FFFFFF;
+    padding:0.9rem 2rem;
+    border: 1px solid #A02279;
+    width:30%;
+    cursor:pointer;
+}
+.heroImages{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+.imggroup1, .imggroup2{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+.imggroup1{
+    margin-top: 5rem;
+}
+.imggroup1 img, .imggroup2 img{
+    width:100%;
+}
+.imggroup1 img:hover, .imggroup2 img:hover{
+    transform: scale(1.1);
+}
+@media screen and (max-width:1030px){
+    .hero{
+        margin: 2rem;
+    }
+    .heroText h1{
+        line-height: 110%;
+    }
+    .heroText>p{
+        margin-top:0rem;
+        line-height: 30px;
+    }
+    .heroImages{
+        gap:0.5rem;
+    }
+    .imggroup1, .imggroup2{
+        gap:0.5rem;
+    }
+}
+@media screen and (max-width:850px){
+    .hero{
+        margin:0rem 1rem;
+    }
+    .heroText h1{
+        line-height: 100%;
+        font-size: 48px;
+    }
+}
+@media screen and (max-width:700px){
+    .hero{
+        flex-wrap: wrap;
+        margin:1rem 2rem;
+    }
+
+}
+ 

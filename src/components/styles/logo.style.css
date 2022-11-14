@@ -1,0 +1,16 @@
+.logos{
+    background: linear-gradient(90deg, #A02279 11.45%, #A02279 11.45%);
+    display: flex;
+    justify-content: space-between;
+    padding:0.5rem 1rem;
+    margin: 3rem auto;
+}
+@media screen and (max-width:760px){
+    .logos{
+        flex-wrap: wrap;
+        gap: 1rem;
+    }
+    .logos>img{
+        width: 30%;
+    }
+}
