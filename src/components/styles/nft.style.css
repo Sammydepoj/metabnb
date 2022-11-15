@@ -127,7 +127,6 @@ right: 20px;
     .nftImages{
         width:100%;
         position: sticky;
-        border: 1px solid blue;
     }
     .nftImages img{
         width:50%

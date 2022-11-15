@@ -35,7 +35,7 @@ const Footer = () => {
         <div className="aboutUs">
             <h4>About Us</h4>
             <p className='footerLinks'>Roadmap</p>
-            <p className='footerLinks'>CReator</p>
+            <p className='footerLinks'>Creator</p>
             <p className='footerLinks'>Carrier</p>
             <p className='footerLinks'>Contact-us</p>
 

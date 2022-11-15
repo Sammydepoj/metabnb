@@ -111,7 +111,7 @@ input[type=submit]{
 @media screen and (max-width:700px){
     .hero{
         flex-wrap: wrap;
-        margin:1rem 2rem;
+        margin:1rem;
     }
 
 }
