@@ -1,6 +1,6 @@
 import React from 'react'
+// eslint-disable-next-line
 import modalstyle from './styles/modal.style.css'
-// import {RiCloseLine} from 'react-icons/ri'
 import metamask from '../assets/metamask logo.svg'
 import walletconnect from '../assets/wallet connect.svg'
 import close from '../assets/x.svg'

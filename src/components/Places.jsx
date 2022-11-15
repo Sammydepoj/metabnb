@@ -16,6 +16,7 @@ import img14 from '../assets/placetostayimages/frame14.png'
 import img15 from  '../assets/placetostayimages/frame15.png'
 import img16 from '../assets/placetostayimages/frame16.png'
 import star from '../assets/homeimages/Star 2.svg'
+import Filter from '../components/Filter'
 
 
 class Places extends Component{
@@ -26,28 +27,28 @@ class Places extends Component{
             images:[
                 {
                     img:img1,
-                    id:'img1',
+                    id:'pic1',
                     name:'Desert King',
                     price:'1 MBT per night',
                     availability:'available for 2 weeks stay'
                 },
                 {
                     img:img2,
-                    id:'img2',
+                    id:'pic2',
                     name:'Desert King',
                     price:'1 MBT per night',
                     availability:'available for 2 weeks stay'
                 },
                 {
                     img:img3,
-                    id:'img3',
+                    id:'pic3',
                     name:'Desert King',
                     price:'1 MBT per night',
                     availability:'available for 2 weeks stay'
                 },
                 {
                     img:img4,
-                    id:'img4',
+                    id:'pic4',
                     name:'Desert King',
                     price:'1 MBT per night',
                     availability:'available for 2 weeks stay'
@@ -61,77 +62,77 @@ class Places extends Component{
                 },
                 {
                     img:img6,
-                    id:'img6',
+                    id:'pic6',
                     name:'Desert King',
                     price:'1 MBT per night',
                     availability:'available for 2 weeks stay'
                 },
                 {
                     img:img7,
-                    id:'img7',
+                    id:'pic7',
                     name:'Desert King',
                     price:'1 MBT per night',
                     availability:'available for 2 weeks stay'
                 },
                 {
                     img:img8,
-                    id:'img8',
+                    id:'pic8',
                     name:'Desert King',
                     price:'1 MBT per night',
                     availability:'available for 2 weeks stay'
                 },
                 {
                     img:img9,
-                    id:'img9',
+                    id:'pic9',
                     name:'Desert King',
                     price:'1 MBT per night',
                     availability:'available for 2 weeks stay'
                 },
                 {
                     img:img10,
-                    id:'img10',
+                    id:'pic10',
                     name:'Desert King',
                     price:'1 MBT per night',
                     availability:'available for 2 weeks stay'
                 },
                 {
                     img:img11,
-                    id:'img11',
+                    id:'pic11',
                     name:'Desert King',
                     price:'1 MBT per night',
                     availability:'available for 2 weeks stay'
                 },
                 {
                     img:img12,
-                    id:'img12',
+                    id:'pic12',
                     name:'Desert King',
                     price:'1 MBT per night',
                     availability:'available for 2 weeks stay'
                 },
                 {
                     img:img13,
-                    id:'img13',
+                    id:'pic13',
                     name:'Desert King',
                     price:'1 MBT per night',
                     availability:'available for 2 weeks stay'
                 },
                 {
                     img:img14,
-                    id:'img14',
+                    id:'pic14',
                     name:'Desert King',
                     price:'1 MBT per night',
                     availability:'available for 2 weeks stay'
                 },
                 {
                     img:img15,
-                    id:'img15',
+                    id:'pic15',
                     name:'Desert King',
                     price:'1 MBT per night',
                     availability:'available for 2 weeks stay'
                 },
                 {
                     img:img16,
-                    id:'img16',
+                    id:'pic16',
                     name:'Desert King',
                     price:'1 MBT per night',
                     availability:'available for 2 weeks stay'
@@ -142,7 +143,7 @@ class Places extends Component{
     render(){
         return (
                 <div>
-                    <div className="menu">Menu here</div>
+                    <Filter/>
                     <div className='cardlist'>               
                         {
                             this.state.images.map(showimg=> 
@@ -155,11 +156,11 @@ class Places extends Component{
 
                                 <p><span className='distance'>2345km away</span><span className='availability'>{showimg.availability}</span></p>
                                 <div className="rating">
-                                    <img src={star} alt='star rating' key='star1'/>
-                                    <img src={star} alt='star rating' key='star1'/>
-                                    <img src={star} alt='star rating' key='star1'/>
-                                    <img src={star} alt='star rating' key='star1'/>
-                                    <img src={star} alt='star rating' key='star1'/>
+                                    <img src={star} alt='star rating' key='starone'/>
+                                    <img src={star} alt='star rating' key='startwo'/>
+                                    <img src={star} alt='star rating' key='starthree'/>
+                                    <img src={star} alt='star rating' key='starfour'/>
+                                    <img src={star} alt='star rating' key='starfive'/>
                                 </div>
                             </div>
                         </div>

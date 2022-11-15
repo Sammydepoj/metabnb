@@ -1,7 +1,7 @@
 .navbar{
     display: flex;
     justify-content: space-between;
-    margin: 2rem;
+    margin: 1rem;
 }
 ul{
     display: flex;
@@ -13,7 +13,7 @@ ul>li{
     color: #434343;
 }
 ul>li>a{
-    margin: auto 1rem;
+    /* margin: auto 1rem; */
     font-family: 'Red Rose';
     font-style: normal;
     font-weight: 400;
@@ -40,7 +40,7 @@ button{
 .close{
     display: none;
 }
-@media screen and (max-width:886px){
+@media screen and (max-width:900px){
     #menuButton{
         display: block;
         z-index: 0;
@@ -52,12 +52,13 @@ button{
     }
     .navs{
         display:none;
-        background-color: rgb(160, 157, 156);
         position: absolute;
         right: 0;
         top: 20%;
         width: 100%;
         text-align: center;
+        background: #FFFFFF;
+        border-radius: 16px;
     }
     .navs>li{
         margin: 1.5rem;
@@ -65,6 +66,9 @@ button{
 
 }
 @media screen and (max-width:550px){
+    .navbar{
+        margin: 1rem;
+    }
     .navbar>img{
         width: 30%;
     }
